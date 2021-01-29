@@ -1,0 +1,230 @@
+
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #FFFFFF;
+    font-family:Georgia, Times, serif;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color:#32353C;
+    margin: 5px;
+    transition: 0.3s ease;
+}
+@media screen and (max-width:1024px){
+    .nav-links {
+      width: 60%;
+    }
+}
+
+@media screen and (max-width:768px){
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.toggle .line1 {
+    transform: rotate(-45deg) translate (-5px,6px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate (-5px,-6px);
+}
+/*Image Section*/
+ header {
+     opacity: 0.5;
+ }
+.section-1 {
+    background-image: url(../img/model-2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.left-block {
+    display: flex;
+    justify-content: space-between;
+}
+.left-block img {
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.plane {
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 138px;
+}
+.plane-p {
+    display: inline-block;
+    margin-left: 15px;
+
+}
+.left {
+    width: 33.33%;
+    float: left;
+}
+.right {
+    width: 33.33%;
+    float: right;
+    position: relative;
+}
+.middle {
+    width: 33.33%;
+    margin: 0 auto;
+}
+.image-3 {
+    margin-top: 100px;
+}
+.box {
+    width: 184px;
+    height: 50px;
+    background-color: #32353C;
+    position: relative;
+}
+.go-shopping {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.section-2-h3 {
+    margin-top:360px;
+    margin-left: 150px;
+}
+.section-2-h2 {
+    margin-top: 8px;
+    margin-left: 150px;
+}
+.box {
+    margin-top: 15px;
+    margin-left:150px;
+    
+}
+.jumper {
+    margin-top: 21px;
+    margin-bottom: 5px;
+}
+.cost {
+    margin-top: 8px;
+    text-decoration: line-through;
+    display: inline-block;
+}
+.cost-2 {
+    display: inline-block;
+}
+.section-wrapper {
+    background-image: url(../img/bg.png);
+    width: 100%;
+    height: 800px;
+    position: relative;
+    margin-top: 80px;
+}
+.form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+  
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 608px;
+    width: 400px;
+  }
+  
+  .form-inline button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    margin-top: 600px;
+  }
+  
+  .form-inline button:hover {
+    background-color: royalblue;
+  }
+  
+  @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+    
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  .email {
+      width: 800px;
+  }
+  
+
