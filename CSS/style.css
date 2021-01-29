@@ -184,19 +184,14 @@ nav {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-  }
-  
-  .form-inline label {
-    margin: 5px 10px 5px 0;
-  }
-  
+  } 
   .form-inline input {
     vertical-align: middle;
     margin: 5px 10px 5px 0;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
-    margin-top: 608px;
+    margin-top: 300px;
     width: 400px;
   }
   
@@ -206,7 +201,7 @@ nav {
     border: 1px solid #ddd;
     color: white;
     cursor: pointer;
-    margin-top: 600px;
+    margin-top: 295px;
   }
   
   .form-inline button:hover {
@@ -226,5 +221,41 @@ nav {
   .email {
       width: 800px;
   }
-  
-
+  .form-h3 {
+      margin-left:950px;
+      margin-top: 10px;
+  }
+  .form-p {
+      margin-left: 830px;
+      margin-top:10px;
+  }
+.form-p2 {
+    margin-left:860px;
+    margin-top: 10px;
+}
+.sect3-h3 {
+    margin-left:930px;
+    margin-top:120px
+}
+.sect3-p {
+    margin-left:900px;
+    margin-top:10px
+}
+.flex-container {
+    display: flex;
+ }
+  .flex-container div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .icon-bar {
+      margin-left: 800px;
+      font-size: 20px;
+      font-weight: 400;
+  }
+.fab {
+    margin-right:30px;
+    margin-left: 10px;
+    color: black;
+}
