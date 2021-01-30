@@ -259,3 +259,29 @@ nav {
     margin-left: 10px;
     color: black;
 }
+.section-4 {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.image-flex {
+    display: flex;
+    width: 875px;
+    margin-top:100px;
+}
+.bg-image {
+    margin-top: 100px;
+    margin-left: 15px;
+}
+.sectiom-5 {   
+    margin-left: 40px;
+    display: flex;
+}
+.bg4 {
+    margin-left: 40px;
+}
+.bg-image2 {
+    margin-top:60px;
+    margin-left:15px;
+}
+
