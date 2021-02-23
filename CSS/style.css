@@ -284,4 +284,61 @@ nav {
     margin-top:60px;
     margin-left:15px;
 }
+/** FOOTER**/
+.footer-div {
+    display: flex;
+}
+.container {
+    width: 100%;
+    color: white;
+    background-color: #32353C;
+}
+.footer-left-block1 {
+    margin-top:50px;
+    margin-left:20px;
+    margin-right: 236px;
+}
+.footer-left-block2 {
+    margin-top:50px;
+    margin-right: 200px;
+}
+.footer-right-block1 {
+    margin-top:50px;
+    margin-right:236px;
+}
+.footer-right-block2 {
+    margin-top:50px;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.lists {
+    font-weight: bold;
+    color: #6F6F6F  ;
+    margin-bottom: 10px;
+}
+.accept {
+    color: #6F6F6F;
+    margin-bottom: 8px;
+}
+.Get-Help {
+    margin-bottom:20px ;
+}
+.Popular {
+    margin-bottom:20px;
+}
+.Let’s {
+    margin-bottom:20px;
+}
+.registerbtn {
+    background-color: #32353C;
+    width: 100px;
+    height: 35px;
+}
+.keep {
+    margin-top: 10px;
+}
+.all {
+    margin-bottom:30px;
 
+}
