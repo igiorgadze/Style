@@ -290,13 +290,12 @@ nav {
 }
 .container {
     width: 100%;
-    color: white;
     background-color: #32353C;
 }
 .footer-left-block1 {
     margin-top:50px;
     margin-left:20px;
-    margin-right: 236px;
+    margin-right: 200px;
 }
 .footer-left-block2 {
     margin-top:50px;
@@ -311,6 +310,7 @@ nav {
 }
 .contact-info {
     color: white;
+    font-size: 24px;
     margin-bottom: 20px;
 }
 .lists {
@@ -323,12 +323,18 @@ nav {
     margin-bottom: 8px;
 }
 .Get-Help {
+    color: white;
+    font-size: 24px;
     margin-bottom:20px ;
 }
 .Popular {
+    color: white;
+    font-size: 24px;
     margin-bottom:20px;
 }
 .Let’s {
+    color: white;
+    font-size:24px;
     margin-bottom:20px;
 }
 .registerbtn {
@@ -338,8 +344,10 @@ nav {
 }
 .keep {
     margin-top: 10px;
+    color: #6F6F6F;
 }
 .all {
+    color: #6F6F6F;
     margin-bottom:30px;
 
 }
