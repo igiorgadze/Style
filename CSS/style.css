@@ -14,6 +14,7 @@ nav {
     font-family:Georgia, Times, serif;
 }
 .nav-links {
+    max-width: 1170px;
     display: flex;
     justify-content: space-around;
     width: 40%;
@@ -30,6 +31,7 @@ nav {
 }
 
 .burger div {
+    max-width: 1170px;
     width: 25px;
     height: 3px;
     background-color:#32353C;
@@ -107,11 +109,13 @@ nav {
     margin-left: 250px;
 }
 .plane {
+    font-size: 20px;
     margin-top: 50px;
     margin-left: 60px;
     margin-bottom: 138px;
 }
 .plane-p {
+
     display: inline-block;
     margin-left: 15px;
 
@@ -193,6 +197,7 @@ nav {
     border: 1px solid #ddd;
     margin-top: 300px;
     width: 400px;
+    max-width: 1170px;
   }
   
   .form-inline button {
@@ -222,22 +227,27 @@ nav {
       width: 800px;
   }
   .form-h3 {
+      font-size: 20px;
       margin-left:950px;
       margin-top: 10px;
   }
   .form-p {
+      font-size: 16px;
       margin-left: 830px;
       margin-top:10px;
   }
 .form-p2 {
+    font-size: 16px;
     margin-left:860px;
     margin-top: 10px;
 }
 .sect3-h3 {
-    margin-left:930px;
+    font-size: 20px;
+    margin-left:900px;
     margin-top:120px
 }
 .sect3-p {
+    font-size: 17px;
     margin-left:900px;
     margin-top:10px
 }
@@ -273,12 +283,14 @@ nav {
     margin-top: 100px;
     margin-left: 15px;
 }
-.sectiom-5 {   
-    margin-left: 40px;
-    display: flex;
+.images-wrapper {
+    margin-top:50px;
+}
+.bg3{
+    margin-left: 20px;
 }
 .bg4 {
-    margin-left: 40px;
+    margin-left:20px;
 }
 .bg-image2 {
     margin-top:60px;
@@ -349,5 +361,24 @@ nav {
 .all {
     color: #6F6F6F;
     margin-bottom:30px;
-
+}
+.image-icon-wrapper {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+.images-wrapper {
+    justify-content: space-between;
+    font-size: 16px;
+    margin-right: 150px;
+}
+.icon {
+    margin-left: 50px;
+}
+.free {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 5px;
 }
