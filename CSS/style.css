@@ -81,20 +81,21 @@ nav {
     }
 }
 .toggle .line1 {
-    transform: rotate(-45deg) translate (-5px,6px);
+    transform: rotate(-45deg) translate(-5px,6px);
 }
 .toggle .line2 {
     opacity: 0;
 }
 
 .toggle .line3 {
-    transform: rotate(45deg) translate (-5px,-6px);
+    transform: rotate(45deg)
 }
-/*Image Section*/
+
+ /*Image Section*/
  header {
      opacity: 0.5;
  }
-.section-1 {
+.container-left-block {
     background-image: url(../img/model-2.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -115,7 +116,6 @@ nav {
     margin-bottom: 138px;
 }
 .plane-p {
-
     display: inline-block;
     margin-left: 15px;
 
@@ -157,7 +157,6 @@ nav {
     margin-left: 150px;
 }
 .section-2-h2 {
-    margin-top: 8px;
     margin-left: 150px;
 }
 .box {
@@ -253,12 +252,11 @@ nav {
 }
 .flex-container {
     display: flex;
- }
-  .flex-container div {
+    justify-content: space-between;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
-  }
+ }
   .icon-bar {
       margin-left: 800px;
       font-size: 20px;
@@ -285,6 +283,7 @@ nav {
 }
 .images-wrapper {
     margin-top:50px;
+
 }
 .bg3{
     margin-left: 20px;
@@ -344,7 +343,7 @@ nav {
     font-size: 24px;
     margin-bottom:20px;
 }
-.Let’s {
+.Let {
     color: white;
     font-size:24px;
     margin-bottom:20px;
@@ -382,3 +381,4 @@ nav {
     margin-left: 30px;
     margin-bottom: 5px;
 }
+
