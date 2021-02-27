@@ -81,21 +81,20 @@ nav {
     }
 }
 .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px,6px);
+    transform: rotate(-45deg) translate (-5px,6px);
 }
 .toggle .line2 {
     opacity: 0;
 }
 
 .toggle .line3 {
-    transform: rotate(45deg)
+    transform: rotate(45deg) translate (-5px,-6px);
 }
-
- /*Image Section*/
+/*Image Section*/
  header {
      opacity: 0.5;
  }
-.container-left-block {
+.section-1 {
     background-image: url(../img/model-2.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -157,6 +156,7 @@ nav {
     margin-left: 150px;
 }
 .section-2-h2 {
+    margin-top: 8px;
     margin-left: 150px;
 }
 .box {
@@ -343,7 +343,7 @@ nav {
     font-size: 24px;
     margin-bottom:20px;
 }
-.Let {
+.Let’s {
     color: white;
     font-size:24px;
     margin-bottom:20px;
